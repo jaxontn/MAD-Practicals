@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/drawable/ic_building1.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/drawable/ic_building7.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/drawable/ic_coast_northwest.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/drawable/ic_coast_northwest_concave.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/drawable/ic_coast_southwest_concave.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/drawable/ic_road_ns.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/drawable/ic_road_s.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/drawable/ic_road_w.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/drawable/ic_tree1.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/drawable/ic_tree4.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/layout/fragment_map.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/layout/fragment_my_a.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/layout/fragment_select.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/layout/grid_cell.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/layout/ic_building1.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/layout/ic_building2.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/layout/ic_building5.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/layout/ic_building8.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/layout/ic_coast_northwest_concave.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/USER/Desktop/Y2S2/MAD/[Practicals]/week3/Lab3/app/src/main/res/layout/list_selection.xml" value="0.28940217391304346" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

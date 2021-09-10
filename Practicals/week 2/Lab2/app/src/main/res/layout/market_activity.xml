@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/currentItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="currentItem" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Previous" />
+
+        <Button
+            android:id="@+id/buy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy" />
+
+        <Button
+            android:id="@+id/sell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sell" />
+
+        <Button
+            android:id="@+id/leave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leave" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="185dp"
+            android:layout_height="116dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+                android:id="@+id/statusBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="status bar:" />
+
+            <TextView
+                android:id="@+id/cash"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cash" />
+
+            <TextView
+                android:id="@+id/health"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Health" />
+
+            <TextView
+                android:id="@+id/equipmentMass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="equipmentMass" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/prevEquipment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="76dp"
+            android:text="Prev"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/nextEquipment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="16dp"
+            android:text="Next"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/toSell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="EQUIPMENT TO SELL:"
+            app:layout_constraintBottom_toTopOf="@+id/equipmentToSell"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.2" />
+
+        <TextView
+            android:id="@+id/equipmentToSell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="88dp"
+            android:text="equipment"
+            app:layout_constraintEnd_toStartOf="@+id/nextEquipment"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toEndOf="@+id/prevEquipment"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
+
